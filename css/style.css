@@ -344,6 +344,10 @@ header {
     margin: 0 auto;
 }
 
+.service a {
+    color: var(--clr-accent);
+}
+
 @media (min-width: 800px) {
     .services {
         display: flex;
@@ -410,11 +414,15 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    padding: 10px;
 }
 
 .portfolio__img {
