@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingroca</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/lulo_logo_transparent.png" alt="Logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Python <strong>FAST API</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FastAPI + Python</p>
+        <img src="img/python.jpg" alt="Fundacion Lulo" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+
+        <h3>Why?</h3>
+
+        <p>
+            Everywhere I look I see Python and FastAPI, so I decided to learn it. I have to say, I am impressed with FastAPI, it is fast and easy to use.
+        </p>
+        
+        <p>
+            Inpired by my love to dogs and specially my dog Lulo, I decided to create a FastAPI project to learn Python and FastAPI. With this project
+            I demostrate the drive I have to learn and re-learn new technologies. In this journey I have learned a lot about Python, FastAPI, Docker, AWS, and more.
+            This started with a small idea; create a API to have the ability to CRUD a dog. Then move it to the cloud and then host it in AWS and make it 
+            visible on my website.
+        </p>
+
+        <p>
+            The end goal of this project is to have the hability to create a dog with traits and then use OpenAI to generate a description of the dog. 
+            Then the users can perform actions on their dogs like feed, walk, play, etc. This will affect the energey levels, bonding levels with the owners.
+            Dogs will have a waiting time to perform actions. All the dogs will belong to a user and can be visible in a virtual dog park.
+        </p>
+        
+        <h3>What was (will be) used?</h3>
+
+        <p>You can check all the tech stack on github but here is a list of things used:</p>
+        
+        <ul>
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>Uvicorn</li>
+            <li>PostgreSQL</li>
+            <li>NGINX</li>
+            <li>JWT</li>
+            <li>OpenAI</li>
+        </ul>
+
+        <h3>Repo</h3>
+
+        <p>
+            You can find the repo <a href="https://github.com/Dev-Squid/dogapi" target="_blank" rel="noopener noreferrer">here</a>.
+        </p>
+
+        <h3>Live Demo</h3>
+
+        <p>
+            Here you can see a live demo hostead on my domain: 
+            <a href="https://ingroca.dev/projects/dogapi/docs" target="_blank" rel="noopener noreferrer">Go!</a>
+            *NOTE: THERE IS A ISSUE WITH MY CLOUDFRONT DISTRIBUTION AND EC2 INSTANCE. I AM WORKING ON IT.
+            <a href="http://ec2-34-221-205-191.us-west-2.compute.amazonaws.com:8000/docs" target="_blank" rel="noopener noreferrer">AWS EC2 Link!</a>
+        </p>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:ing_roca@outlook.com" class="footer__link">ing_roca@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Dev-Squid">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/roberto-rodriguez-076b2b26/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
